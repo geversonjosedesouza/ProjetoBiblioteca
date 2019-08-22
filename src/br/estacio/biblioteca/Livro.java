@@ -93,4 +93,9 @@ public class Livro implements Comparable<Livro> {
         return this.titulo.compareTo(livro.titulo);
     }
 
+    @Override
+    public String toString() {
+        return this.titulo;
+    }
+
 }
